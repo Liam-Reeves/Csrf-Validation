@@ -7,19 +7,21 @@
     <title>Django form</title>
 </head>
 <body>
-
-
-    <h1>Django Form Validation</h1>
+    <center>
+        
+    <h1><u>Django Form Validation</u></h1>
     <form action="" method="post" >
         {% csrf_token %}
-        <input type="text" placeholder="Enter Name"> <br>
-        <input type="text" placeholder="Enter Phone Number"> <br>
-        <input type="text" placeholder="Enter Email"> <br>
-        <input type="text" placeholder="Enter Location"> <br>
+
+        {{ form }}
+
         <input type="submit"> <br>
   
 
     </form>
+    </center>
+
+
 
 
     
